@@ -38,15 +38,18 @@ Berikut adalah struktur folder utama beserta penjelasannya:
 - **Tailwind CSS** – Utility-first CSS framework untuk styling yang cepat dan efisien.
 - **PostCSS** – Digunakan bersama Tailwind untuk memproses CSS.
 - **ESLint** – Linter untuk menjaga kualitas dan konsistensi penulisan kode.
-- **npm** – Node Package Manager untuk mengelola dependensi.
 
 ---
 
 ## 🚀 Langkah Instalasi
 
-Berikut cara instalasi dan menjalankan proyek ini secara lokal:
+Instalasi Next.Js dan Tailwind CSS :
 
-1. **Clone repository ini:**
+1. **Pergi ke website tailwindcss.com**
+2. **Pilih dokumen untuk instalasi menggunakan framework**
+3. **Pilih Framework Next.js**
+4. **Ikuti perintah instalasi yang sudah tertera di website**
+5. **Buka VSCode, ketika di terminal :**
    ```bash
-   git clone https://github.com/username/nama-proyek.git
-   cd nama-proyek
+   npm run dev di terminal
+6. **Buka localhost yang ada di terminal**
