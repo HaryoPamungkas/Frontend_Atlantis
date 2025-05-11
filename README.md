@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend PT. Atlantis
 
-## Getting Started
+Ini merupakan proyek **frontend** dari PT. Atlantis. Proyek ini berupa **website company profile** yang dapat diakses melalui browser. Website ini dikembangkan menggunakan **JavaScript** dengan framework **Next.js** dan beberapa library pendukung seperti React.js dan Tailwind CSS.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📁 Struktur Folder / Proyek
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Berikut adalah struktur folder utama beserta penjelasannya:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **`app/`**  
+  Folder ini adalah fitur dari **Next.js App Router**. Di dalamnya berisi struktur halaman, layout, dan route aplikasi.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **`components/`**  
+  Tempat menyimpan komponen UI terpisah yang bisa digunakan ulang, seperti tombol (`Button.jsx`), navbar, card, dan komponen visual lainnya.
 
-## Learn More
+- **`node_modules/`**  
+  Folder ini berisi semua **dependency dan library** yang di-install melalui **npm**. Folder ini otomatis dibuat saat menjalankan `npm install`.
 
-To learn more about Next.js, take a look at the following resources:
+- **`public/`**  
+  Folder untuk menyimpan file statis seperti **gambar, ikon, CSS, atau font**. File di dalam folder ini dapat diakses langsung dari URL.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **File konfigurasi utama:**
+  - `.gitignore` – Menentukan file/folder yang tidak diikutkan ke dalam Git.
+  - `eslint.config.mjs` – Konfigurasi ESLint untuk pengecekan kualitas kode.
+  - `jsconfig.json` – Konfigurasi path dan alias module JavaScript.
+  - `next.config.mjs` – Konfigurasi utama untuk Next.js.
+  - `postcss.config.mjs` – Konfigurasi PostCSS (biasanya untuk Tailwind CSS).
+  - `package.json` – Daftar dependensi dan skrip proyek.
+  - `README.md` – Dokumentasi proyek ini.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧰 Tools & Teknologi yang Digunakan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js** – Framework React untuk membangun aplikasi web modern dan server-side rendering.
+- **React.js** – Library JavaScript untuk membangun UI.
+- **Tailwind CSS** – Utility-first CSS framework untuk styling yang cepat dan efisien.
+- **PostCSS** – Digunakan bersama Tailwind untuk memproses CSS.
+- **ESLint** – Linter untuk menjaga kualitas dan konsistensi penulisan kode.
+- **npm** – Node Package Manager untuk mengelola dependensi.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Langkah Instalasi
+
+Berikut cara instalasi dan menjalankan proyek ini secara lokal:
+
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/username/nama-proyek.git
+   cd nama-proyek
